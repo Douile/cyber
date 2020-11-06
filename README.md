@@ -1,3 +1,3 @@
 # Not much here yet
 
-[prototype pollution](pollution)
+[prototype pollution](pollution.html)
