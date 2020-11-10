@@ -12,15 +12,16 @@
   border-radius: 7px;
   border: 1px solid #fff;
   cursor: pointer;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: auto 1fr;
 }
 * {
   box-sizing: border-box;
 }
 </style>
-<ul>
+<div class="centered-flex">
   {% for post in site.posts %}
-    <div class="centered-flex">
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </div>
+  <a href="{{ post.url }}"><span>{{post.date}}</span><span>{{ post.title }}</span></a>
   {% endfor %}
-</ul>
+</div>
