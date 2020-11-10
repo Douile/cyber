@@ -1,8 +1,3 @@
---
-layout: post
-title: "Prototype pollution"
---
-
 # A brief overview on prototype pollution
 
 ## What is a prototype
