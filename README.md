@@ -7,7 +7,7 @@
   max-width: 900px;
 }
 .centered-flex > * {
-  margin: 2em;
+  margin: .5em 0;
   padding: 1em;
   border-radius: 7px;
   border: 1px solid #fff;
@@ -15,6 +15,7 @@
   text-decoration: none;
   display: grid;
   grid-template-columns: auto 1fr;
+  grid-gap: .5em;
 }
 * {
   box-sizing: border-box;
