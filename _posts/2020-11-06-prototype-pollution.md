@@ -1,6 +1,6 @@
 --
 layout: post
-title: Prototype pollution
+title: "Prototype pollution"
 --
 
 # A brief overview on prototype pollution
