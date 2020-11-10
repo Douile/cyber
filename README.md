@@ -1,14 +1,4 @@
 <style>
-.root-flex {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  alight-items: center;
-}
 .centered-flex {
   display: flex;
   flex-flow: column nowrap;
@@ -35,10 +25,8 @@
   box-sizing: border-box;
 }
 </style>
-<div class="root-flex">
 <div class="centered-flex">
   {% for post in site.posts %}
   <a href="{{ post.url }}"><span>{{post.date | date: "%Y-%m-%d"}}</span><span>{{ post.title }}</span></a>
   {% endfor %}
-</div>
 </div>
