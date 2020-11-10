@@ -6,7 +6,7 @@
   width: 100%;
   max-width: 900px;
 }
-.centered-flex * {
+.centered-flex > * {
   margin: 2em;
   padding: 1em;
   border-radius: 7px;
@@ -22,6 +22,6 @@
 </style>
 <div class="centered-flex">
   {% for post in site.posts %}
-  <a href="{{ post.url }}"><span>{{post.date}}</span><span>{{ post.title }}</span></a>
+  <a href="{{ post.url }}"><span>{{post.date | date: "%Y-%m-%d"}}</span><span>{{ post.title }}</span></a>
   {% endfor %}
 </div>
