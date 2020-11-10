@@ -16,6 +16,11 @@
   display: grid;
   grid-template-columns: auto 1fr;
   grid-gap: .5em;
+  color: #fff;
+  text-shadow: none;
+}
+.centered-flex > *:hover {
+  text-decoration: underline;
 }
 * {
   box-sizing: border-box;
