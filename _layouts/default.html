@@ -36,16 +36,17 @@
     {% if site.google_analytics %}
       <!-- Sorry for the tracking -->
       <script>
-        (function(w,d,t,u){
+        (function(w,d,t,u,i){
           const s = d.createElement(t);
           s.src = u;
           s.async = 1;
+          s.integrity = i;
           d.head.appendChild(s);
           w.dataLayer = w.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', '{{ site.google_analytics }}');
-        })(window,document,'script','https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}');
+        })(window,document,'script','https://cdn.jsdelivr.net/gh/douile/nice-google-analytics@1.1/src/nicega.min.js?id={{ site.google_analytics }}','sha512-D8z5o03OF4Q0viTL+OtgKGeZY3zMb7EOtUMhfOvUvfpaYWwiKF2j+TaXUnWkn+qSqwwmHgtvwwvRsdXl2jEq0Q==');
       </script>
     {% endif %}
   </body>
