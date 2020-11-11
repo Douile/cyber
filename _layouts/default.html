@@ -41,7 +41,7 @@
           s.src = u;
           s.async = 1;
           s.integrity = i;
-          s.crossorigin = 'anonymous';
+          s.setAttribute('crossorigin', 'anonymous');
           d.head.appendChild(s);
           w.dataLayer = w.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
