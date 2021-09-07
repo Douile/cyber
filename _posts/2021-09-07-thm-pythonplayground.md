@@ -1,5 +1,5 @@
 ---
-title: "Python playground"
+title: "Python playground Writeup"
 tags: writeup tryhackme
 ---
 
