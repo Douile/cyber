@@ -179,7 +179,7 @@ After searching the sudo version (1.8.21p2) on searchsploit I didn't find any ex
 James was in the `adm` group.
 ```shell
 $ id
-uid=1000(james) gid=1000(james) groups=1000(james),4(adm),24(cdrom),46(plugdev),lxd(108)
+uid=1000(james) gid=1000(james) groups=1000(james),4(adm),24(cdrom),46(plugdev),108(lxd)
 ```
 The `adm` group on linux means you have special access to using `systemctl` (systemd). Meaning we
 might be able to use systemctl to get root.
