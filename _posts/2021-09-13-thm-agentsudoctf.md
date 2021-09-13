@@ -33,6 +33,7 @@ PORT   STATE SERVICE REASON  VERSION
 Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 #### rustscan flags
+
 | flag | explanation |
 | :--: | :---------- |
 | `-t 2500` | Increases the port timeout (to 2.5seconds), this improves accuracy especially over the VPN |
@@ -87,7 +88,8 @@ Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2021-09-13 21:17:
 1 of 1 target successfully completed, 1 valid password found
 Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2021-09-13 21:18:53
 ```
-### Hydra flags
+#### Hydra flags
+
 | flag | explanation |
 | `-l "chris"` | Tells hydra to try the username "chris" (no list) |
 | `-P /usr/share/wordlists/rockyou.txt` | Tells hydra to use the rockyou wordlist (very common in CTFs) for passwords |
