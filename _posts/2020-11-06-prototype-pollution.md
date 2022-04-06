@@ -1,3 +1,8 @@
+---
+title: "Prototype Pollution"
+tags: guides
+---
+
 # A brief overview on prototype pollution
 
 ## What is a prototype

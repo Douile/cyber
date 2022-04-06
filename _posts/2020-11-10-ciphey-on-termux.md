@@ -1,3 +1,8 @@
+---
+title: "Installing ciphey in termux"
+tags: guides
+---
+
 # A quick guide for how to install [ciphey](https://github.com/Ciphey/Ciphey) on [termux](https://github.com/termux/termux-app)
 
 ## Build python3.8
